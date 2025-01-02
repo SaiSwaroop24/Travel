@@ -9,7 +9,7 @@ const PORT = 5000;
 
 app.use(bodyParser.json());
 app.use(cors());
-const API_KEY = "AIzaSyCzjDdpwYgR9p8AW5hvlg6ycdggwtV1fLQ"; // Replace with your actual API key
+const API_KEY = ""; // Replace with your actual API key
 
 // Initialize the API key and model configuration
 const apiKey = 'AIzaSyCOF5RHf4TXa9RwYtkjgGEVtZbpWM0avhs';
