@@ -12,7 +12,7 @@ app.use(cors());
 const API_KEY = ""; // Replace with your actual API key
 
 // Initialize the API key and model configuration
-const apiKey = 'AIzaSyCOF5RHf4TXa9RwYtkjgGEVtZbpWM0avhs';
+const apiKey = '';
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const model = genAI.getGenerativeModel({
